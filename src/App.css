@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Satisfy", cursive;
+  color: rgb(5, 5, 97);
+  font-weight: bolder;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(5, 5, 97);
+  color: white;
+}
